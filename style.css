@@ -1,0 +1,150 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box  ;
+}
+
+
+header {
+    background-color: #129799;
+    width:100vw ;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+    list-style: none;
+  
+  }
+
+  p{
+    color:white ;
+    font-size:8vh ;
+    position:relative ;
+    left:2vh ;
+    font-family: "Roboto", sans-serif ;
+  }
+  
+  nav ul li {
+    
+    list-style-type:none ;
+    display:inline-block ;
+    padding:20px 20px ;
+    font-size:30px ;
+    
+  }
+
+  nav ul li:hover {
+    background:transparent ;
+    color:wheat ;
+    cursor: pointer;
+    
+  }
+
+  header section {
+    display:flex ;
+  
+    align-items:center ;
+  }
+
+ header  .mexer {
+    display:flex ;
+    justify-content:center ;
+    color: white;
+    align-items:center ;
+    letter-spacing:1px ;
+    list-style:none ;
+    gap:50px ;
+    font-size:25px ;
+ }
+
+
+  .logo{
+    display:flex ;
+    align-items:center ;
+    width:50% ;
+  }
+
+
+main {
+    
+    width:100vw ;
+    display:flex ;
+    flex-direction:column ;
+    gap:75px ;
+    background-color: #FFA185; 
+  
+}
+ 
+
+h1{
+  font-size:4vh ;
+  color:white ;
+  position:relative ;
+  left:2vh ;
+  font-family:"Roboto" , sans-serif ;
+  top:0.5rem ;
+
+}
+
+h2{
+  font-size:2vh ;
+  position:relative ;
+  left:1vh ;
+  top:1.5rem ;
+ 
+  
+}
+
+
+.imagens{
+  display: flex;
+  flex-direction:column ;
+  gap:75px ;
+}
+
+.imagens img {
+  width:80vh ;
+}
+
+.alinhamento{
+  display:flex ;
+  justify-content:space-evenly ;
+  gap:10px ;
+}
+
+h3 {
+  display:flex ;
+  justify-content: center;
+  align-items:flex-end ;
+  font:bold ;
+  height:10vh ;
+  font-size:35px ;
+
+}
+
+
+footer{
+  display:flex ;
+  justify-content:space-between ;
+  align-items:center ;
+  background-color: #129799;
+  width:100vw ;
+}
+
+
+footer img {
+  width:50px ;
+  position: relative;
+  left:10vh ;
+  margin-right:1rem ;
+}
+
+
+footer .color {
+  color:black ;
+  position: relative;
+  right:12vh ;
+  
+}
